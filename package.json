@@ -1,0 +1,24 @@
+{
+  "name": "hasanah-api",
+  "version": "1.0.0",
+  "description": "An API to get ayat or hadith",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/husamXA1/hasanah-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/husamXA1/hasanah-api/issues"
+  },
+  "homepage": "https://github.com/husamXA1/hasanah-api#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}

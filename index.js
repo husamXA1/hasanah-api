@@ -6,6 +6,9 @@ app.get("/", (req, res) => {
     res.json({ message: "Hello World" })
 })
 
+const quranRouter = require('./routes/quran')
+app.use("/quran", quranRouter)
+
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`)
 })
